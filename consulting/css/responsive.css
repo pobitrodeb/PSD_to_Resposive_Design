@@ -1,0 +1,49 @@
+@media screen and ( min-width: 576px) and (max-width: 991px ){
+.capacity-card{
+    margin: 10px 0px;
+
+}
+    .c_card{
+
+    }
+    .get_serives{
+        height: 380px;
+    }
+    .capacity-card h4,p{
+
+        text-align: center;
+    }
+    .coutner_section{
+        height: 680px;
+    }
+    .coutner_section h2{
+        font-size: 44px;
+        font-weight: bold;
+    }
+    .coutner_section p{
+        font-size: 16px;
+    }
+    .expriance{
+
+        padding: 24px 0px;
+    }
+    .about_section{
+
+    }
+    .secrvices_card{
+        margin: 10px 0px;
+    }
+    .team-body{
+
+    }
+    .main-card{
+        margin: 10px 0px;
+
+    }
+    .big-footer-address{
+        text-align: center;
+    }
+    .fotter-button{
+        float: right;
+    }
+}

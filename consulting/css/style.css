@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.section-title{
+
+}
+.section-title h2{
+    font-size: 45px;
+}
+.section-title p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.hero-section{
+    height: 580px;
+    background-image: url("../images/hero_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c_card{
+    margin-top: 150px;
+}
+.c_card h3{
+    color: #2a405e;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_about{
+    background-color: #87b5f2;
+}
+.btn_about:hover{
+    color: white;
+    background-color: #0e3e7f;
+}
+   
+.btn_2{
+    margin-left: 30px;
+    background-color:#0e3e7f;
+    color: white;
+    border-radius: none !important;
+}
+.btn_2:hover{
+    background-color: white;
+    color: #0e3e7f;
+}
+.get_serives {
+    background-color: #0e3e7f;
+}
+.btn_getServices {
+    margin-top: 25px;
+    justify-content: center;
+    padding: 15px 8px;
+    font-size: 18px;
+    border-radius: none;
+    background-color: white;
+    color: #0e3e7f;
+}
+.btn_getServices:hover{
+    color: white;
+    background-color: #9bbce9;
+    border: 3px solid white;
+}
+.capacity{
+    background-color: #eaf2fd;
+
+}
+.h-300{
+    height: 300px;
+}
+.capacity_2{
+ 
+}
+.coutner_section{
+    height: 500px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.coutner_section h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+/* ####################### expriance ##################  */
+.expriance{
+    
+}
+.expriance h3{
+    font-size: 55px;
+    text-transform: capitalize;
+    color: #c4d4ea;
+    margin: 15px 0px;
+}
+.expriance p{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.expriance button{
+    background-color: #0e3e7f;
+    padding: 12px 32px;
+    border: none;
+    border-radius: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.expriance button:hover{
+    background-color: #0e3e7f;
+    padding: 12px 32px;
+    border: none;
+    border-radius: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    outline-color: #9bbce9;
+}
+/* ####################### about_section ##################  */
+.about_section{
+    /* background-color: #c4d4ea;
+    height: 350px; 
+    padding: 50px 0px; */
+    background-color: #eaf2fd;
+}
+.line{
+    height: 3px;
+    width: 65px;
+    background-color: #95a5a6;
+     margin: 10px auto;
+    text-align: center;
+}
+.secrvices_card{
+    box-shadow: 0px 0px 10px 5px lightgray;
+}
+.secrvices_card i{
+
+    font-size: 35px;
+}
+.secrvices_card h2{
+
+}
+.secrvices_card p{
+    padding: 0px 15px;
+}
+/* ####################### about_section ##################  */
+.team-section{
+    background-image: url("../images/team_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-body{
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    padding: 20px;
+}
+/* ####################### Fotter Section ##################  */
+.fotter-button{
+    background-color: #0e3e7f;
+}
+.office-bulding{
+    background-image: url(../images/1092.jpg);
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+}
+.follow-up{
+    background-color: #0e3e7f;
+    height: 350px;
+    padding: 55px 0px;
+}
+.follow-up a{
+    text-decoration: none;
+}
+/* ################# footer section ##################  */
+.end-section{
+    background-color:#333333; 
+    padding:15px 0px;
+}
