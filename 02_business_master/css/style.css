@@ -1,0 +1,324 @@
+                                        * {
+                                            margin: 0px;
+                                            padding: 0px;
+                                        }
+                                        
+                                        body {
+                                            margin: 0px;
+                                            padding: 0px;
+                                            background-color: #ffffff;
+                                        }
+                                        
+                                        .container_fluid {
+                                            width: 100%;
+                                        }
+                                        
+                                        .container {
+                                            max-width: 1100px;
+                                            margin: 0px auto;
+                                        }
+                                        
+                                        li {
+                                            list-style: none;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                        }
+                                        /* #### start header top section####### */
+                                        
+                                        .header_top {
+                                            background-color: #f0f2f4;
+                                        }
+                                        
+                                        .headr_top_menu {}
+                                        
+                                        .headr_top_menu ul {
+                                            display: flex;
+                                            justify-content: end;
+                                        }
+                                        
+                                        .headr_top_menu ul li {
+                                            list-style: none;
+                                            padding: 5px 10px;
+                                        }
+                                        
+                                        .headr_top_menu ul li a {
+                                            color: #717272;
+                                        }
+                                        
+                                        .headr_top_menu ul li a: hover {
+                                            color: white;
+                                        }
+                                        /* 
+                        <!-- ######## HEADER MENU SECTIONN ###### --> */
+                                        
+                                        .header_menu {
+                                            /* background-color: #ffffff; */
+                                        }
+                                        
+                                        .navbar-light .navbar-nav .nav-link:focus,
+                                        .navbar-light .navbar-nav .nav-link: {
+                                            color: : black;
+                                            font-size: 18px;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        .navbar-light .navbar-nav .nav-link:focus,
+                                        .navbar-light .navbar-nav .nav-link:hover {
+                                            color: red;
+                                            font-weight: 700;
+                                        }
+                                        
+                                        .navbar-light .navbar-nav .active>.nav-link,
+                                        .navbar-light .navbar-nav .nav-link.active,
+                                        .navbar-light .navbar-nav .nav-link.show,
+                                        .navbar-light .navbar-nav .show>.nav-link {
+                                            color: red;
+                                            font-weight: 700;
+                                        }
+                                        
+                                        .banner {
+                                            background-image: url(../img/background.png);
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: cover;
+                                            min-height: 80vh;
+                                        }
+                                        
+                                        .banner_content {
+                                            height: 500px;
+                                            color: white;
+                                        }
+                                        
+                                        .banner_content h2 {
+                                            font-size: 30px;
+                                            font-weight: 700;
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        .banner_content a {
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .btn-custom {
+                                            color: white;
+                                            padding: 12px 35px;
+                                            font-size: 19px;
+                                            font-weight: 700;
+                                            background: #f8cd53;
+                                            border: 1px solid #f8cd53;
+                                            border-radius: 5px;
+                                            text-transform: uppercase;
+                                        }
+                                        /* ### start about us  ### */
+                                        
+                                        .about_us {
+                                            margin-top: 100px;
+                                            margin-bottom: 100px;
+                                        }
+                                        
+                                        .secound_row {
+                                            margin-top: 50px;
+                                        }
+                                        
+                                        .about_title {
+                                            margin-bottom: 50px;
+                                        }
+                                        
+                                        span {
+                                            height: 5px;
+                                            width: 75px;
+                                            background: #424242;
+                                            display: inline-block;
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        .about-logo img {
+                                            margin-bottom: 15px;
+                                        }
+                                        /* /* #### approch section ### */
+                                        
+                                        .our_approch {
+                                            background-color: #f3f3f3;
+                                            padding: 25px 3px;
+                                        }
+                                        
+                                        .our_approch_content {
+                                            margin-top: 55px;
+                                            margin-bottom: 35px;
+                                            padding: 8px 5px;
+                                        }
+                                        
+                                        .our_approch_content h2 {
+                                            font-size: 35px;
+                                            font-weight: 700;
+                                            color: #424242;
+                                        }
+                                        
+                                        .our_approch_content p {
+                                            font-size: 16px;
+                                            margin-top: 13px;
+                                        }
+                                        
+                                        .approch {
+                                            background: #ffffff;
+                                            margin-top: 45px;
+                                            margin-bottom: 55px;
+                                        }
+                                        
+                                        .approch_img {
+                                            position: relative;
+                                        }
+                                        
+                                        .step1 {
+                                            height: 100px;
+                                            width: 100px;
+                                            background: red;
+                                            color: white;
+                                            text-align: center;
+                                            position: absolute;
+                                            top: 50%;
+                                            right: -6%;
+                                            transform: translateY(-50%);
+                                        }
+                                        
+                                        .step1 h2 {
+                                            padding-top: 10px;
+                                        }
+                                        
+                                        .approch2_content {
+                                            text-align: right;
+                                        }
+                                        
+                                        .approch2_img {
+                                            position: relative;
+                                        }
+                                        
+                                        .step2 {
+                                            height: 100px;
+                                            width: 100px;
+                                            background: red;
+                                            color: white;
+                                            text-align: center;
+                                            position: absolute;
+                                            top: 50%;
+                                            left: -8%;
+                                            transform: translateY(-50%);
+                                        }
+                                        
+                                        .step2 h2 {
+                                            padding-top: 10px;
+                                        }
+                                        
+                                        .work {
+                                            color: white;
+                                            background-color: red;
+                                            padding: 105px 0px;
+                                        }
+                                        
+                                        .work h2 {
+                                            font-size: 35px;
+                                            font-weight: 600;
+                                            margin: 5px;
+                                        }
+                                        
+                                        .work .span_2 {
+                                            background-color: white;
+                                            width: 45px;
+                                            margin-bottom: 55px;
+                                        }
+                                        
+                                        .work_contetn {
+                                            color: white;
+                                            background: #f35e59;
+                                        }
+                                        /*                                 
+                                .work_contetn a {
+                                    text-decoration: none;
+                                    padding-top: 25px;
+                                } */
+                                        
+                                        .work_content2 {}
+                                        
+                                        .work_content2 {
+                                            text-decoration: none;
+                                            display: block;
+                                            margin-top: 85px;
+                                        }
+                                        
+                                        .work_img img {
+                                            width: 100%;
+                                        }
+                                        
+                                        .getintouch {
+                                            padding: 65px 0px;
+                                            color: white;
+                                            background: #2a2a2a;
+                                        }
+                                        
+                                        .get-content {
+                                            padding: 25px 0px;
+                                        }
+                                        
+                                        .get-content h2 {
+                                            margin: 42px 5px;
+                                            display: block;
+                                            font-size: 37px;
+                                        }
+                                        
+                                        .get-content ul {
+                                            display: flex;
+                                            width: 35%;
+                                            justify-content: space-between;
+                                            margin: auto;
+                                            margin-bottom: 25px;
+                                        }
+                                        
+                                        .get-content ul li {}
+                                        
+                                        .get-content ul li a {
+                                            border: 1px solid #a72b26;
+                                            border-radius: 5px;
+                                            padding: 10px;
+                                            color: white;
+                                        }
+                                        
+                                        .get-content ul li a i {
+                                            background-color: transparent;
+                                        }
+                                        
+                                        .get-content ul li a:hover {}
+                                        
+                                        .get-content p {}
+                                        
+                                        .get-content input {}
+                                        
+                                        .subsribe {
+                                            padding: 8px 35px;
+                                            font-size: 18px;
+                                            color: white;
+                                            font-weight: 600;
+                                            border-radius: 5px;
+                                            margin-top: 18px;
+                                            background-color: #515151;
+                                            border: 1px solid #fff;
+                                        }
+                                        
+                                        .subsribe:hover {
+                                            color: green;
+                                            background-color: white;
+                                            border: 1px solid#515151;
+                                        }
+                                        
+                                        .footer {
+                                            color: white;
+                                            background: #515151;
+                                        }
+                                        
+                                        .footer p {
+                                            font-size: 15px;
+                                            padding: 5px 0px;
+                                            margin-top: 15px;
+                                            text-transform: capitalize;
+                                        }
